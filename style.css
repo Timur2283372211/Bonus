@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=PT+Serif:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+body {
+  font-family: 'PT Serif', serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 360px;
+    height: 2000px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.content{
+    position: relative;
+}
+
+.main{
+    width: 360px;
+    height: 737px;
+    background-image: url(./assets/img/bg.png);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 113px;
+    padding-inline: 27px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img{
+    
+}
+
+.logo-text{
+color: #FFF;
+font-family: PT Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-icon{
+    width: 45px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+.text-top{
+margin-left: 25px;
+margin-right: 30px;
+color: #FFF;
+font-family: Playfair Display;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-center{
+    margin-left: 28px;
+    margin-right: 62px;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-bottom{
+    margin: 15px;
+    margin-left: 28px;
+    margin-right: 27px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.boots{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    z-index: 1;
+}
+
+.but-wrapper{
+    margin-top: 71px;
+    margin-left: 60px;
+    margin-right: 62px;
+}
+
+.button {
+    position: absolute;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 238px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #8E32C6;
+    z-index: 3;
+}
